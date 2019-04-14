@@ -6,4 +6,4 @@ services:
   - docker build -t ddbogdanovich/docker-react -f Dockerfile.dev .
 
   sctipt:
-   - docker run ddbogdanovich/docer-react npm run test -- --coverage 
+   - docker run ddbogdanovich/docker-react npm run test -- --coverage 
